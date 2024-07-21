@@ -23,15 +23,15 @@ The main purpose of this project is to use data science methods and create machi
  - Roger Qiu
 
 ## Methods Used
-Data Engineering
-Data Mining
-Data Visualization
-EDA
-Inferential Statistics
-Dimentionality Reduction
-Predictive Modeling
-Machine Learning
-Hyperparameter Tuning
+ - Data Engineering
+ - Data Mining
+ - Data Visualization
+ - EDA
+ - Inferential Statistics
+ - Dimentionality Reduction
+ - Predictive Modeling
+ - Machine Learning
+ - Hyperparameter Tuning
 
 ## Project Description
 This project involves a detailed county-level analysis of stomach cancer mortality rates, using data from the National Center for Health Statistics (NCHS) combined with additional datasets such as SDOH and detailed county-level health measures. The dataset includes numerous variables, providing a comprehensive view of the factors influencing mortality rates. Key questions and hypotheses explored include the influence of demographic and socioeconomic factors on stomach cancer outcomes and the effectiveness of machine learning models in predicting these rates.
