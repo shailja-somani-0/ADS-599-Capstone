@@ -19,8 +19,8 @@ git clone https://github.com/shailja-somani-0/ADS-599-Capstone.git
 The main purpose of this project is to use data science methods and create machine learning models to analyze and predict stomach cancer mortality rates across different U.S. counties, considering various factors such as race, age, and county. The aim is to identify patterns and contributing factors, including social determinants of health (SDOH) and other health metrics, to better understand and address disparities in cancer outcomes. The aim is to contribute to reducing stomach cancer mortality rates in the U.S., providing important insights for public health officials, policymakers, and healthcare providers.
 
 ## Partner(s)/Contributor(s)
-Roger Qiu
-Shailja Somani
+ - Shailja Somani
+ - Roger Qiu
 
 ## Methods Used
 Data Engineering
