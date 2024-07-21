@@ -12,7 +12,7 @@ To use, install, run, or edit this project on your machine, follow these steps:
 
 ```bash
 git init
-git clone https://github.com/rogerqiu/ADS-599-Capstone.git
+git clone https://github.com/shailja-somani-0/ADS-599-Capstone.git
 ```
 
 ## Project Intro/Objective
