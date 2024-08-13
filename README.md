@@ -47,8 +47,10 @@ This project involves a detailed county subpopulation-level analysis of stomach 
 Seven regression models were tested with various hyperparameters for each using 5-fold cross-validation with RMSE as the metric to minimize. Two dimensionality reduction methods were tested: selecting only 15 key columns of the 309 SDOH features (along with all other features) and conducting PCA to turn those 309 SDOH columns to 90 components (then adding that back to all other features). The best model was a LightGBM model with learning_rate: 0.1, max_depth: 20, n_estimators: 20 that was trained on all demographic and CDC health equity features, as well as the 90 PCA components for the SDOH features. The RMSE for that model was 0.0000355 (36.8% of the target mean, which is 0.00009633), the adjusted R2 was 0.9607, and the correlation coefficient for the actual vs. predicted values in the test set was 0.9802. SHAP values are used to further dive into the model.
 
 ### Actual vs. Predicted Values for Final LightGBM Model on Test Data
+![actual_pred_vals](Image_Library/8_Actual_vs_Pred_Vals.png)
 
 ### Global SHAP Values for Final Model
+![global_shap_vals](Image_Library/9_Global_SHAP_Vals.png)
 
 ## License
 This project is licensed under the MIT License. Please refer to the LICENSE file in the project folder for more details.
